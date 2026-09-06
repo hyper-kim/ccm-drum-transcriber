@@ -1,0 +1,23 @@
+[
+  "tests/test_pipeline.py::TestBeatTracker::test_bpm_in_range",
+  "tests/test_pipeline.py::TestBeatTracker::test_downbeat_times_sorted",
+  "tests/test_pipeline.py::TestBeatTracker::test_measure_count_positive",
+  "tests/test_pipeline.py::TestBeatTracker::test_returns_tempo_grid",
+  "tests/test_pipeline.py::TestFullPipeline::test_end_to_end",
+  "tests/test_pipeline.py::TestFullPipeline::test_simile_reduces_output",
+  "tests/test_pipeline.py::TestQuantizer::test_grid_positions_valid",
+  "tests/test_pipeline.py::TestQuantizer::test_returns_measures",
+  "tests/test_pipeline.py::TestQuantizer::test_simile_not_on_first_measure",
+  "tests/test_pipeline.py::TestQuantizer::test_voice_assignment",
+  "tests/test_pipeline.py::TestScoreWriter::test_output_file_created",
+  "tests/test_pipeline.py::TestScoreWriter::test_output_with_section_hints",
+  "tests/test_pipeline.py::TestSyntheticWavGeneration::test_wav_duration",
+  "tests/test_pipeline.py::TestSyntheticWavGeneration::test_wav_file_created",
+  "tests/test_pipeline.py::TestSyntheticWavGeneration::test_wav_sample_rate",
+  "tests/test_pipeline.py::TestSyntheticWavGeneration::test_wav_stereo",
+  "tests/test_pipeline.py::TestTranscriber::test_events_are_drum_events",
+  "tests/test_pipeline.py::TestTranscriber::test_events_time_sorted",
+  "tests/test_pipeline.py::TestTranscriber::test_pitch_variety",
+  "tests/test_pipeline.py::TestTranscriber::test_returns_drum_events",
+  "tests/test_pipeline.py::TestTranscriber::test_velocity_range"
+]
