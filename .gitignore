@@ -2,13 +2,16 @@ myvenv/
 __pycache__/
 *.pyc
 .env
+
+# 데이터셋 원본 및 추출 파일 (Git은 25GB 오디오 파일을 감당할 수 없습니다)
 data/
-models/
+
+# 오디오/영상 출력물 (stems, 원본 음원)
 output/stems/
-output/score/
-*.wav
-*.mp3
-*.pt
-*.mid
-*.pdf
+output/audio/
+*.webm
+*.mp4
+
+# OS
 .DS_Store
+Thumbs.db
